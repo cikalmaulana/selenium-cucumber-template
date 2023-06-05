@@ -11,19 +11,17 @@ Before getting started, make sure you have the following prerequisites installed
 # Folder Structure
 The folder structure of the project is organized as follows:
 
-$ tree
-.
-src
-├── main
-│   ├── java
-│   │   ├── Pages
-│   │   ├── Runner
-│   │   ├── StepDefinition
-│   │   └── Utils
-│   └── resources
-│       ├── properties
-│       └── scenario
-└── drivers
+- src
+  |-- main
+  |   |-- java
+  |   |   |-- Pages
+  |   |   |-- Runner
+  |   |   |-- StepDefinition
+  |   |   └── Utils
+  |   └── resources
+  |       |-- properties
+  |       └── scenario
+  └── drivers
 
 src/main/java/Pages: Contains page object classes that represent the different pages of the web application under test.
 src/main/java/Runner: Contains the TestRunner class that executes the Cucumber tests.
