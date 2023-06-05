@@ -11,6 +11,8 @@ Before getting started, make sure you have the following prerequisites installed
 # Folder Structure
 The folder structure of the project is organized as follows:
 
+$ tree
+.
 src
 ├── main
 │   ├── java
