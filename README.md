@@ -11,25 +11,13 @@ Before getting started, make sure you have the following prerequisites installed
 # Folder Structure
 The folder structure of the project is organized as follows:
 
-- src
-  |-- main
-  |   |-- java
-  |   |   |-- Pages
-  |   |   |-- Runner
-  |   |   |-- StepDefinition
-  |   |   └── Utils
-  |   └── resources
-  |       |-- properties
-  |       └── scenario
-  └── drivers
-
-src/main/java/Pages: Contains page object classes that represent the different pages of the web application under test.
-src/main/java/Runner: Contains the TestRunner class that executes the Cucumber tests.
-src/main/java/StepDefinition: Contains the step definition classes that define the mapping between Cucumber feature files and the corresponding automation steps.
-src/main/java/Utils: Contains utility classes or helper methods that can be used across the test framework.
-src/main/resources/properties: Contains the browser.properties file where the base URL of the web application is defined.
-src/main/resources/scenario: Contains the Cucumber feature files that define the test scenarios.
-drivers: Should contain the ChromeDriver executable.
+* src/main/java/Pages: Contains page object classes that represent the different pages of the web application under test.
+* src/main/java/Runner: Contains the TestRunner class that executes the Cucumber tests.
+* src/main/java/StepDefinition: Contains the step definition classes that define the mapping between Cucumber feature files and the corresponding automation steps.
+* src/main/java/Utils: Contains utility classes or helper methods that can be used across the test framework.
+* src/main/resources/properties: Contains the browser.properties file where the base URL of the web application is defined.
+* src/main/resources/scenario: Contains the Cucumber feature files that define the test scenarios.
+* drivers: Should contain the ChromeDriver executable.
 
 # Getting Started
 1. Clone the repository to your local machine.
